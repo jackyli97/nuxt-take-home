@@ -6,6 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "server:debug": "nodemon --inspect app.js",
+    "server": "nodemon app.js",
     "generate": "nuxt generate"
   },
   "dependencies": {
@@ -15,5 +17,7 @@
     "mongoose": "^5.11.8",
     "nuxt": "^2.14.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
